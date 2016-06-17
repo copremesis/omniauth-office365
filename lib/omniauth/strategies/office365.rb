@@ -12,7 +12,7 @@ module OmniAuth
       }
 
       option :authorize_params, {
-        resource: 'https://graph.windows.net/'
+        resource: 'https://graph.microsoft.com'
       }
 
       uid { raw_info["objectId"] }
